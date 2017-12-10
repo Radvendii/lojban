@@ -531,9 +531,11 @@ let s:gui_violet      = "#6c71c4"
 let s:gui_blue        = "#268bd2"
 let s:gui_cyan        = "#2aa198"
 let s:gui_green       = "#719e07" "experimental
-let s:gui_brown       = "#a52a2a"
+let s:gui_brown       = s:gui_base0
+"#a52a2a"
+let s:gui_grey        = "#808080"
 
-exe "hi def lojbanComment term=None cterm=None gui=None"
+exe "hi def lojbanComment term=None cterm=None gui=s:gui_grey"
 exe "hi def lojbanPause term=bold cterm=bold gui=bold"
 exe "hi def lojbanValsiUnrecognized term=reverse ctermfg=Red gui=undercurl guifg=".s:gui_red." guisp=".s:gui_magenta.""
 exe "hi def lojbanValsiUnrecognizedConsonantError term=reverse ctermbg=Red gui=undercurl guibg=".s:gui_red." guisp=".s:gui_red.""
@@ -579,7 +581,7 @@ exe "hi def lojbanValsiIllegal term=reverse ctermfg=Red gui=undercurl guifg=".s:
 exe "hi def lojbanValsiIllegalConsonantError term=reverse ctermbg=Red gui=undercurl guibg=".s:gui_red." guisp=".s:gui_red.""
 exe "hi def lojbanValsiIllegalSpecificError term=reverse ctermbg=Red gui=undercurl guibg=".s:gui_red." guisp=".s:gui_red.""
 exe "hi def lojbanQuoteSymbol term=bold cterm=bold gui=bold"
-exe "hi def lojbanTextForeign term=None cterm=None gui=None"
+exe "hi def lojbanTextForeign term=None cterm=None gui=s:gui_grey"
 exe "hi def lojbanGismu term=underline ctermfg=Green guifg=".s:gui_green.""
 exe "hi def lojbanGismuUnofficial term=underline ctermfg=Blue gui=undercurl guifg=Green guisp=Blue"
 
