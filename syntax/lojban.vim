@@ -553,7 +553,7 @@ hi def lojbanCmavoUnassigned term=reverse ctermfg=Blue gui=undercurl guifg=Brown
 hi def lojbanCmavoWrongHesitation term=reverse ctermfg=Red gui=undercurl guifg=Brown guisp=Magenta
 hi def lojbanCmavoDiphtongError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
 hi def lojbanCmavoVowelError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
-hi def lojbanCmene term=italic ctermfg=Brown guifg=Magenta
+hi def lojbanCmene term=italic ctermfg=Brown guifg=Brown
 hi def lojbanCmeneConsonantError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
 hi def lojbanCmeneSpecificError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
 hi def lojbanValsiIllegal term=reverse ctermfg=Red gui=undercurl guifg=Red guisp=Magenta
