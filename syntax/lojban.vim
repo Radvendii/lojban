@@ -463,6 +463,57 @@ syn keyword lojbanGismu zutse zvati
 
 syn keyword lojbanGismuUnofficial loglo norgo nuzlo spero talno turko xorvo
 
+" Defaults
+" hi def lojbanComment term=None cterm=None gui=None
+" hi def lojbanPause term=bold cterm=bold gui=bold
+" hi def lojbanValsiUnrecognized term=reverse ctermfg=Red gui=undercurl guifg=Red guisp=Magenta
+" hi def lojbanValsiUnrecognizedConsonantError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanValsiUnrecognizedVowelError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanFuhivlaUnrecognized term=reverse ctermfg=Red gui=undercurl guifg=Blue guisp=Magenta
+" hi def lojbanFuhivlaUnrecognizedConsonantError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanFuhivlaUnrecognizedVowelError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanFuhivlaUnrecognizedHyphenError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanFuhivla term=underline ctermfg=Blue guifg=Blue
+" hi def lojbanFuhivlaConsonantError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanFuhivlaVowelError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanFuhivlaSlinkuhi term=reverse ctermfg=Red gui=undercurl guifg=Blue guisp=Magenta
+" hi def lojbanFuhivlaSlinkuhiConsonantError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanFuhivlaBreakable term=reverse ctermfg=Red gui=undercurl guifg=Blue guisp=Magenta
+" hi def lojbanFuhivlaBreakableConsonantError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanFuhivlaBreakableVowelError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanFuhivlaStrong term=underline ctermfg=Blue guifg=Blue
+" hi def lojbanFuhivlaStrongConsonantError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanFuhivlaStrongVowelError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanLujvo term=underline ctermfg=Cyan guifg=Cyan
+" hi def lojbanLujvoConsonantError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanLujvoVowelError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanRafsiCultural term=underline ctermfg=Blue gui=undercurl guifg=Cyan guisp=Blue
+" hi def lojbanRafsiCulturalConsonantError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanRafsiCulturalVowelError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanLujvoTosmabru term=reverse ctermfg=Red gui=undercurl guifg=Cyan guisp=Magenta
+" hi def lojbanLujvoTosmabruConsonantError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanLujvoTosmabruVowelError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanGismuUnknown term=reverse ctermfg=Red gui=undercurl guifg=Green guisp=Magenta
+" hi def lojbanGismuSpecificError term=reverse ctermbg=Green gui=undercurl guibg=Green guisp=Green
+" hi def lojbanGismuConsonantError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanCmavoSimple term=bold ctermfg=Yellow guifg=Brown
+" hi def lojbanCmavoExperimental term=bold ctermfg=Blue gui=undercurl guifg=Brown guisp=Blue
+" hi def lojbanCmavoIllegal term=reverse ctermfg=Red gui=undercurl guifg=Brown guisp=Magenta
+" hi def lojbanCmavoUnassigned term=reverse ctermfg=Blue gui=undercurl guifg=Brown guisp=Blue
+" hi def lojbanCmavoWrongHesitation term=reverse ctermfg=Red gui=undercurl guifg=Brown guisp=Magenta
+" hi def lojbanCmavoDiphtongError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanCmavoVowelError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanCmene term=italic ctermfg=Magenta guifg=Magenta
+" hi def lojbanCmeneConsonantError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanCmeneSpecificError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanValsiIllegal term=reverse ctermfg=Red gui=undercurl guifg=Red guisp=Magenta
+" hi def lojbanValsiIllegalConsonantError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanValsiIllegalSpecificError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
+" hi def lojbanQuoteSymbol term=bold cterm=bold gui=bold
+" hi def lojbanTextForeign term=None cterm=None gui=None
+" hi def lojbanGismu term=underline ctermfg=Green guifg=Green 
+" hi def lojbanGismuUnofficial term=underline ctermfg=Blue gui=undercurl guifg=Green guisp=Blue
+
 hi def lojbanComment term=None cterm=None gui=None
 hi def lojbanPause term=bold cterm=bold gui=bold
 hi def lojbanValsiUnrecognized term=reverse ctermfg=Red gui=undercurl guifg=Red guisp=Magenta
@@ -502,7 +553,7 @@ hi def lojbanCmavoUnassigned term=reverse ctermfg=Blue gui=undercurl guifg=Brown
 hi def lojbanCmavoWrongHesitation term=reverse ctermfg=Red gui=undercurl guifg=Brown guisp=Magenta
 hi def lojbanCmavoDiphtongError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
 hi def lojbanCmavoVowelError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
-hi def lojbanCmene term=italic ctermfg=Magenta guifg=Magenta
+hi def lojbanCmene term=italic ctermfg=Brown guifg=Magenta
 hi def lojbanCmeneConsonantError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
 hi def lojbanCmeneSpecificError term=reverse ctermbg=Red gui=undercurl guibg=Red guisp=Red
 hi def lojbanValsiIllegal term=reverse ctermfg=Red gui=undercurl guifg=Red guisp=Magenta
