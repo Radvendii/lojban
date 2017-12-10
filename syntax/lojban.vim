@@ -533,7 +533,7 @@ let s:gui_cyan        = "#2aa198"
 let s:gui_green       = "#719e07" "experimental
 let s:gui_brown       = s:gui_base0
 "#a52a2a"
-let s:gui_grey        = "#808080"
+let s:gui_grey        = s:gui_base1
 
 exe "hi def lojbanComment term=None cterm=None gui=".s:gui_grey.""
 exe "hi def lojbanPause term=bold cterm=bold gui=bold"
