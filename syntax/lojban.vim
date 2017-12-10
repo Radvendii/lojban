@@ -531,7 +531,7 @@ let s:gui_violet      = "#6c71c4"
 let s:gui_blue        = "#268bd2"
 let s:gui_cyan        = "#2aa198"
 let s:gui_green       = "#719e07" "experimental
-let s:gui_grey        = "None"
+let s:gui_grey        = "#839496"
 " let s:gui_brown       = 
 "#a52a2a"
 let s:gui_brown       = "#93a1a1"
